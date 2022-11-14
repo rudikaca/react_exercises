@@ -26,7 +26,7 @@ export const listOfAwesome = [
 ];
 
 export default function Programmers() {
-    const [programmers, setProgrammers] = useState(listOfAwesome);
+    const [programmers] = useState(listOfAwesome);
     const [featuredProgrammer, setFeaturedProgrammer] = useState(null);
   // We'll have to use the state hook twice, as we need two slices of state.
   // The programmers list on the one hand, and the id of the featured programmer on the other.
